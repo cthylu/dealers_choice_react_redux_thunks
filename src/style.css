@@ -1,0 +1,10 @@
+th, td {
+    padding: 6px 12px;
+}
+td {
+    border: 1px solid #505050;
+}
+label, button {
+    margin-left: 24px;
+    margin-right: 6px;
+}
