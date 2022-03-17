@@ -4,7 +4,12 @@ th, td {
 td {
     border: 1px solid #505050;
 }
-label, button {
+label {
+    margin-left: 24px;
+    margin-right: 6px;
+}
+button {
+    width: 120px;
     margin-left: 24px;
     margin-right: 6px;
 }

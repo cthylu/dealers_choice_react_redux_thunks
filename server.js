@@ -8,7 +8,6 @@ app.use('/src', express.static(path.join(__dirname, '/src')));
 app.use('/public', express.static(path.join(__dirname, '/public')));
 app.use('/dist', express.static(path.join(__dirname, '/dist')));
 
-//app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.post('/api/games', async (req, res, next) => {
     try {
